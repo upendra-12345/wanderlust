@@ -1,6 +1,14 @@
 body {
 
     font-family: "Poppins", sans-serif !important;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container{
+    flex:1;
 
 }
 /* navbar */
@@ -84,3 +92,9 @@ body {
     
 }
 
+/* button */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;;
+
+}
